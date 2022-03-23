@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: CBBBA0;
+}
+
+main{
+    width:80%;
+    background-color: hsl(0, 0%, 100%);
+    margin:20px auto;
+    border-radius:10px;
+}
+
+header{
+    padding: 20px;
+    border-bottom: 1px solid rgb(255, 217, 0);
+    text-align: center;
+   display: flex;
+    align-content: center;
+
+}
+ h1{
+     width:60%;
+     font-family: 'Moo Lah Lah', cursive;
+ }
+header img{
+   width: 220px;
+}
+
+nav{
+    margin: 10px 0;
+    background-color: rgb(240, 136, 9) ;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 20px 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 50px 50px;
+    margin:20px 50px;
+    line-height:30px;
+    color: #000;
+ 
+}
+nav ul li a:hover{
+    color: #FFFFFF;
+}
+
+
+/*carrusel*/
+
+#conteitemscarrusel{
+    height: 600px;
+    overflow: hidden;
+}
+
+.itemcarrusel{
+    height: 600px;
+    position: relative;
+}
+
+
+.tarjetacarrusel{
+    background-color: aquamarine;
+    height: 100%;
+    text-align: center;
+}
+
+.flechascarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding:20px ;
+}
+
+#tarjetacarrusel-1{
+    background-color: antiquewhite;
+}
+
+#tarjetacarrusel-2{
+    background-color: rgb(245, 194, 129);
+}
+
+#tarjetacarrusel-3{
+    background-color: rgb(214, 135, 32);
+}
+/*para quitarle el suraydo */
+a{
+    text-decoration: none;
+}
+/*puntos*/
+#contepuntos{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#contepuntos > a{
+    font-size: 1.6em;
+    font-style: none;
+    color: #727773;
+}
+
+img{
+    width: 70%;
+    height: 100%;  
+}
+
+#texto{
+    background-color: #141414;
+    text-align: center;
+    color: #FFFFFF;
+    height: 60px;
+}
+
+section{
+    margin-top: 70px;
+}
+
+.platosPrincipales{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.platosPrincipales img{
+    width: 500px;
+}
+
+h2{
+    margin: 3px;
+}
+
+.costo{
+    width: 30px;
+}
+.precio{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(240, 136, 9);
+    padding: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.iconos{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+    /* acomodar los iconos al centro*/
+.iconos {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    margin: 10px;
+  }
+
+  /*para separa y podele una forma a los iconos color*/
+.iconos li a {
+    position: relative;
+    width:60px;
+    height:60px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 20%;
+    padding: 17px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgba(233, 247, 50, 0.986);
+    background: linear-gradient(0deg, rgb(241, 244, 245), #fff);
+    transition: .5s;
+  }
+
+  /*para podele movimiento a los iconos*/
+ .iconos li a:hover {
+    box-shadow: 0 6px 10px rgba(248, 19, 191, 0.952);
+    text-decoration:none;
+ }
+
+ /*crear la segunda forma*/
+ul li a .fab {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, rgba(243, 138, 2, 0.911), rgb(236, 245, 111));
+    border-radius: 20%;
+    line-height: calc(30px - 10px);
+    font-size:15px;
+    color: #262626;
+    transition: .5s;
+  }
+
+  .pricing-plan_header{
+    padding: 25px;
+    background: rgb(241, 212, 45);
+    color: rgb(87, 4, 4);
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+
+.titulo1{
+    width: 300px;
+    height: 480px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(19, 12, 12);
+    margin: 15px;
+}
+.caja{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+p{
+    text-align: center;
+}
+
+.description{
+    padding: 25px;
+}
+
+.tarjetacarrusel img{
+    width: 1200px;
+}
+
+.boton{
+    padding: 25px;
+    border-top: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: rgb(24, 20, 20);
+    background: rgb(212, 206, 197);
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    transition: 0.5s;
+    background-image: linear-gradient(to left, rgb(238, 167, 35),rgb(252, 237, 24), rgb(238, 167, 35));
+}
+
+.name:hover {
+    background-position:right ;
+}
+
+.caja{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    width: 100vw;
+}
+
+h4{
+    text-align: center;
+}
+
+.texto2{
+    display: flex;
+    padding: 40px 150px;
+    justify-content: space-evenly;
+}
+
+.texto1{
+    width: 30%;
+}
+h3{
+    text-align: center;
+    margin: 5px;
+}
+.texto1 .color{
+    width: 100%;
+}
+
+ .color {
+  color: #032a3d;
+}
+
+.derecha{
+    width: 30%;
+}
+
+.nosotrosImg{
+    width: 100%;
+}
